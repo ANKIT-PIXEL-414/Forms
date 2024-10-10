@@ -18,14 +18,17 @@ header {
   align-items: center;
   justify-content: center;
 }
-
 a {
   text-decoration: none;
+  font-size: 1rem;
   color: #252525;
   background-color: #2E3370;
   color: #fff;
-  padding: 5.5px;
+  padding: 8px;
   border-radius: 10px;
+}
+a:hover {
+  background-color: #282B51;
 }
 
 form {
@@ -58,10 +61,13 @@ input {
   border: 0px;
   border-bottom: 1px solid #3D3D3D;
 }
+input:hover{
+  border-bottom-color: #FF0000;
+  }
 
 button {
   background-color: #2E3370;
-  padding: 5px;
+  padding: 7px;
   font-size: 1.2rem;
   color: #fff;
   border: 0px;
